@@ -1,6 +1,11 @@
 # matrixChatGPT
 a quick matrix effect using ChatGPT
 
+# here is how it looks
+
+![εικόνα](https://user-images.githubusercontent.com/109196423/233229085-563934f7-62af-43df-b736-f8e41fc1a9e0.png)
+
+# here is the ChatGPT flow that created this project!!! enjoy!
 
 > 1 / 1
 > 
