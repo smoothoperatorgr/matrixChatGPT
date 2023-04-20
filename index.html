@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Matrix Effect</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script>
+      const chars = '0123456789ABCDEF';
+      const charSize = 20;
+      const numChars = Math.floor(window.innerWidth / charSize);
+
+      for (let i = 0; i < numChars; i++) {
+        const char = document.createElement('div');
+        char.innerHTML = chars[Math.floor(Math.random() * chars.length)];
+        char.classList.add('matrix-char');
+        char.style.left = i * charSize + 'px';
+        char.style.animationDelay = Math.random() * 10 + 's';
+        document.body.appendChild(char);
+      }
+    </script>
+  </body>
+</html>
