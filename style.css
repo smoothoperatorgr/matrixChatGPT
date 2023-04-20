@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+}
+
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+.matrix-char {
+  position: absolute;
+  top: 0;
+  color: lime;
+  animation: fall 10s linear infinite;
+}
